@@ -1,0 +1,32 @@
+header {
+    position: absolute;
+    top: 0;
+    background: black;
+    width: 100%;
+    height: 60px;
+    opacity: 1;
+    ul li {
+        display: inline-block;
+        width: 25%;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        i {
+            margin-right: 5px;
+            position: relative;
+            top:3px;
+        }
+        i.skills {
+            position: relative;
+            top:5px;
+            font-size: 25px;
+        }
+        i.summary, i.contact {
+            font-size: 22px;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+
+.pimg5 {
+    background-image: url("../../assets/contact.jpeg");
+    min-height: 400px;
+    .heading {
+        color: #e39f1c;
+    }
+}
+.section {
+    background: #ebba59;
+    color: black;
+    .section-contact {
+        text-align: center;
+    }
+    .section-contact-right, .section-contact-left {
+        display: inline-block;
+    }
+}
+a {
+    display: inline-block;
+    margin-right: 50px;
+}
