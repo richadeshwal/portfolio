@@ -1,0 +1,41 @@
+nav {
+    position: fixed;
+    top: 550px;
+    background: black;
+    opacity: 1;
+    right: 0;
+    z-index: 1000;
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    ul {
+        padding: 0;
+        margin: 0;
+        li {
+            display: block;
+            text-align: center;
+            color: white;
+            border-bottom: 1px solid transparent;
+            cursor: pointer;
+            padding-left: 5px;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        i {
+            margin-right: 5px;
+            position: relative;
+            top: 3px;
+        }
+        i.skills {
+            position: relative;
+            top: 6px;
+            font-size: 25px;
+        }
+        i.summary, i.contact {
+            font-size: 21px;
+        }
+    }
+}
+
